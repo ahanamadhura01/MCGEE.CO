@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family:Cormorant Garamond ,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*navigation*/
+
+.nav-bar{
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding:0px 300px;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.logo{
+
+    width: 206px;
+}
+.nav-bar ul{
+    display: flex;
+    gap: 56px;
+    list-style: none;
+}
+.nav-bar a {
+    text-decoration: none;
+    color: black;
+}
+
+.contact{
+    padding: 15px 30px;
+    border-radius: 24px;
+    background-color: #e3d3bc;
+}
+.contact:hover{
+   background-color: black;
+   color: #e3d3bc;
+}
+.nav-bar a:hover  {
+   color: #e3d3bc;
+}
+
+.nav-icons{
+    padding: 0px 16px;
+    display: flex;
+    gap: 22px;
+    align-items: flex-end;
+}
+
+.nav-icons i:hover{
+    color: #e3d3bc;
+}
+
+/* hero section*/
+.hero-section{
+    padding: 150px 300px;
+    background-image:url("Assets/pexels-dada-_design-240566386-12277637.jpg");
+    background-size:cover;
+    background-position:bottom;
+    background-repeat:no-repeat;
+    position: relative;
+}
+
+.h1 p{
+
+    font-family:"Cormorant Garamont", serif;
+    font-size: 48px;
+
+}
+.h1 span{
+    color: #804600;
+}
+.h6{
+    font-size:18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:400;
+}
+
+.headings{
+    display:inline-block;
+    width:100%;
+    padding-bottom: 48px;
+}
+.buttons a{
+    text-decoration: none;
+    color: black;
+}
+.primary-button{
+    padding: 15px 30px;
+    border-radius: 24px;
+    background-color: #e3d3bc;
+    font-weight: 700px;
+}
+.primary-button:hover{
+    background-color: black;
+    color: azure;
+}
+.secondary-button{
+    padding: 15px 30px;
+    border-radius: 24px;
+    border:1px solid #e2d2bb;
+    font-weight: 700;
+}
+.secondary-button:hover{
+    background-color: #e2d2bb;
+    color: #ffffff;
+}
+.primary-button{
+    margin-right:16px;
+ }
+
+ .brand-identity{
+
+    padding: 100px 300px;
+    background-color: #E3D3BC;
+    align-items: center;
+    width: 100%;
+    min-height: 500px;
+    position: relative;
+    
+
+ }
+
+ .section-heading{
+
+    display: flex;
+    justify-content: space-between;
+  
+ }
+
+ .section-heading p{
+
+    margin-left:72px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    
+ }
+.h3{
+
+    font-size: 36px;
+    color: white;
+ }
+
+
+.image{
+
+    position: absolute;
+    top: 180px;
+
+}
+.image img{
+
+    width:950px;
+    height: 500px;
+    background-size: cover;
+    background-position:center;
+    margin-top: 60px;
+    border-radius: 15px;
+   
+    
+}
+
+.play-button{
+    color: white;
+    padding: 25px 30px;
+    background-color: #e2d2bb;
+    position: inherit;
+    border-radius: 100px;
+    left:50%;
+    top:60%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+
+.made-for{
+
+    padding: 300px 300px 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.left-image img{
+
+    width: 450px;
+    height: 600px;
+    border-radius: 15px;
+   
+}
+
+.right-content{
+
+    display: flex;  
+    flex-direction: column;
+    margin-left: 24px;
+    gap: 24px;
+}
+
+.content{
+
+    padding: 24px 16px;
+    background-color: #705D3F;
+    border-radius: 15px;
+}
+
+.content p{
+
+    color: rgb(210, 210, 210);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bottom-image img{
+
+    height: 420px;
+}
+
+.content h3{
+
+   margin-bottom: 8px;
+}
+
+marquee{
+    font-size: 52px;
+    padding: 50px 0px;
+}
+
+.shop-by-category{
+
+    padding: 100px 300px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.heading{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.sections{
+
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    color:rgb(0, 0, 0);
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top:8px;
+
+}
+
+.heading h3{
+
+
+    font-size: 36px;
+
+}
+
+.sections pre:hover{
+    color: lightslategray;
+}
+
+.card-row1{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.card-row2{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
