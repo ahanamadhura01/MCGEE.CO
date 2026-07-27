@@ -273,14 +273,20 @@ marquee{
     color: lightslategray;
 }
 
-.card-row1{
+.card{
+
     display: flex;
-    justify-content: space-around;
-    gap: 24px;
+    flex-direction: column;
 }
 
-.card-row2{
+.card card-row1 {
+
     display: flex;
-    justify-content: space-around;
-    gap: 24px;
+    justify-content: space-between;
+}
+.card-details- img{
+
+    height: 250px;
+    width: 250px;
+
 }
